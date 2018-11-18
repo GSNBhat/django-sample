@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Test Deployment UI</title>
+</head>
+
+<body>
+<center><h1>Welcome to OPSCONSOLE / OBESTARTER on muchhvt01 </h1></center>
+<form action="" method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="deploy">
+
+</form>
+
+
+
+</body>
+</html>
